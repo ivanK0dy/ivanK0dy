@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Text Search</title>
+        <link rel="stylesheet" href="style/main.css">
+    </head>
+    <body>
+        <div id="menu">
+            <div><a href="index.html">Text Search</a></div>
+            <div><a href="image_search.html">Image Search</a></div>
+      </div>
+      <div class="bar">
+          <label style="margin-left: 10px;">Advanced Search</label>
+      </div>
+      <div class="line"></div>
+      <!-- Pozicioniranje diva koji ce biti oslonica za one unutra -->
+      <div class="main_div">
+        <form action="https://www.google.com/search">
+                <div style="width: 100%;clear: both;">
+                    <div style="clear: both;">
+                        <div class="find_tekst">
+                            <div style="height: 30px; display: table-cell;vertical-align: middle;">
+                                <span>Find pages with...</span>
+                            </div>
+                        </div>
+                        <div class="adv_field_form_container">
+                        </div>
+                    </div>
+                </div>
+                <!--   -->
+                <div class="advanced_field_items">
+                    <div class="advanced_field_item_container">
+                        <div class="adv_field_text_container">
+                            <div class="tekst_cell">all these words:
+                            </div>   
+                        </div>
+                        <div class="adv_field_form_container">
+                            <div class="adv_field_form_cell">
+                                <input class="inputfield_adv_data" type="text" name="as_q" autofocus="autofocus">
+                            </div>
+                        </div>
+                    </div>
+                <!--   -->
+               
+               <div class="advanced_field_items">
+                <div class="advanced_field_item_container">
+                    <div class="adv_field_text_container">
+                        <div class="tekst_cell">this exact word or phrase:
+                        </div>   
+                    </div>
+                    <div class="adv_field_form_container">
+                        <div class="adv_field_form_cell">
+                            <input class="inputfield_adv_data" type="text" name="as_epq" autofocus="autofocus">
+                        </div>
+                    </div>
+                </div>
+                 <!--   -->
+               
+               <div class="advanced_field_items">
+                <div class="advanced_field_item_container">
+                    <div class="adv_field_text_container">
+                        <div class="tekst_cell">any of these words:
+                        </div>   
+                    </div>
+                    <div class="adv_field_form_container">
+                        <div class="adv_field_form_cell">
+                            <input class="inputfield_adv_data" type="text" name="as_oq" autofocus="autofocus">
+                        </div>
+                    </div>
+                </div>
+                 <!--   -->
+               
+               <div class="advanced_field_items">
+                <div class="advanced_field_item_container">
+                    <div class="adv_field_text_container">
+                        <div class="tekst_cell">none of these words:
+                        </div>   
+                    </div>
+                    <div class="adv_field_form_container">
+                        <div class="adv_field_form_cell">
+                            <input class="inputfield_adv_data" type="text" name="as_eq" autofocus="autofocus">
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <!-- BUTTON   -->
+                            
+             <div class="advanced_field_items">
+                <div class="advanced_field_item_container">
+                    <div class="adv_field_text_container">
+                        <div class="tekst_cell">
+                        </div>   
+                    </div>
+                    <div class="adv_field_form_container">
+                        <div class="" style="text-align: right;">
+                            <input value="en" name="hl" type="hidden">
+                            <input class="gumbadv_bttn" type="submit" value="Advanced Search" name="btnK">
+                        </div>
+                    </div>
+                </div>
+        </form>
+      </div>
+    </body>
+</html>

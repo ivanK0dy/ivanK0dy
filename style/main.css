@@ -1,0 +1,245 @@
+div a {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+}
+
+body {  
+    color: #222;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#menu {
+    float: right;
+    display: flex;
+    
+}
+#menu div {
+        padding: 10px;
+        position: relative;
+        
+}
+
+.searchformframe {
+    position: relative;
+   ;; top: 168px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    width: 482px;  
+    ;; align-items: center; 
+    
+    margin: 0 auto 0 auto;
+    z-index: 127;   
+}
+
+.searchformframe:hover {
+    box-shadow: 0 0 10px #dfe1e5;
+}
+
+.searchformframesh {
+    width: 100%;
+    display: flex;
+    height: 233px;
+    
+}
+.searchfield {
+    display: flex;
+    margin: 7px 20px 0 20px;
+    height: 30px;
+}
+.gumbi {
+    position: relative;
+    top: 10px;  
+}
+.gumb {
+font-size: 14px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    height: 36px;
+    padding: 0 16px;
+}
+
+.gumb:hover {
+    font-size: 14px;
+        border: 1px solid  #5f6368;
+        border-radius: 4px;
+        color: black;
+        height: 36px;
+        padding: 0 16px;
+}
+
+.inputfield {
+    display: flex;
+    flex: 100%;
+    position: relative;
+    border: none;
+}
+
+.bar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced_search {
+    width: 96%;
+    margin: 40px 2% 0 45px;
+    min-width: 200px;
+    max-width: 1140px;
+}
+.main_div {
+    width: 96%;
+    margin: 40px 2% 0 45px;
+    min-width: 200px;
+    max-width: 1140px;
+}
+
+.advanced_field_items {
+    width: 100%;
+    clear: both;
+}
+.advanced_field_item_container {
+    clear: both;
+}
+
+.adv_field_text_container {
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    float: left;
+}
+
+.adv_field_form_container {
+    float: left;
+    min-width: 167px;
+    min-height: 41px; 
+    width: 50%;
+}
+
+.adv_field_form_cell {
+    padding-right: 16px;
+}
+
+.findpages {
+    float: left;
+    max-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    height: 42px;
+    font-weight: 500;
+    color: #333;
+}
+
+.find_tekst {
+    float: left;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    height: 42px;
+    font-weight: 500;
+    color: #333;
+}
+.tekst {
+    height: 30px;
+    min-width: 167px;
+    width: 16%;
+    /* height: 42px; */
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 7px 2% 0 45px;
+}
+.tekst_cell {
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tekst2 {
+
+}
+.inputfield_adv {
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+    display: flex;
+}
+.inputfield_adv_input {
+    width: 100%;
+    height: 25px;
+    padding: 1px 8px;
+    font-size: 13px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;   
+}
+.inputfield_adv_data {
+    width: 100%;
+    text-align: left;
+    padding: 1px 8px;
+    font-size: 13px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;  
+    height: 25px; 
+}
+
+.inputfield_adv_data:focus { 
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+    border:1px solid #4d90fe;
+    outline:none
+}
+
+.inputfield_adv_input:focus { 
+    box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);
+    border:1px solid #4d90fe;
+    outline:none
+}
+ .inputfield_adv_bttn {
+    display: flex;
+    flex: 100%;
+    position: relative;
+    border: none;
+}
+.gumbadv_bttn {
+    float: right;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    margin: 10px 0;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;      
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.gumbadv_bttn:focus {
+    outline-width:0
+}
+
+.gumbadv_bttn:hover {
+    background-color:#357ae8;
+    border:1px solid #2f5bb7;
+    
+}
+   
